@@ -1,7 +1,7 @@
-<img src="https://github.com/nmshafie1993/RecommenderSystems/blob/master/Recommender%20system.jpeg" alt="RecommenderSystems">
-# Recommender Systems
+<img src="https://github.com/nmshafie1993/RecommenderSystems/blob/master/Recommender%20system.jpeg" alt="RecommenderSystems"><br>
+# Recommender Systems <br>
 <br> In this notebook, I practiced building different types of recommender systems <br>
-## Part 1 - Popularity-Based Recommenders
+## Part 1 - Popularity-Based Recommenders 
 Initially, I started with 2 dataset from University of California, Irvine <a href="https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data"> "Restaurant & consumer data" </a>. <br>
 ### dataset information: 
 1. <strong> rating_final.csv </strong> <br>
