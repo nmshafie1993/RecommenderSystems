@@ -1,9 +1,9 @@
 <img src="https://github.com/nmshafie1993/RecommenderSystems/blob/master/Recommender%20system.jpeg" alt="RecommenderSystems"><br>
 # Recommender Systems <br>
-<br> In this notebook, I practiced building different types of recommender systems <br>
+In this notebook, I practiced building different types of recommender systems <br>
 ## Part 1 - Popularity-Based Recommenders 
 Initially, I started with 2 dataset from University of California, Irvine <a href="https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data"> "Restaurant & consumer data" </a>. <br>
-### dataset information: 
+### datasets information: 
 1. <strong> rating_final.csv </strong> <br>
 <ul> Instances: 1161 </ul>
 <ul> Attributes: 5 </ul>
@@ -13,7 +13,7 @@ Initially, I started with 2 dataset from University of California, Irvine <a hre
 <ul> food_rating: Numeric, 3 [0,1,2] </ul>
 <ul> service_rating: Numeric, 3 [0,1,2] </ul>
 
-2 <strong> chefmozcuisine.csv </strong>
+2. <strong> chefmozcuisine.csv </strong>
 <ul> Instances: 916 </ul>
 <ul>Attributes: 2 </ul>
 <ul> placeID: Nominal </ul>
@@ -22,5 +22,7 @@ Initially, I started with 2 dataset from University of California, Irvine <a hre
 - I made a popularity-based recommender that works based on popularity of restaurants among users. The assumption is that the restaurant that has the highest counts of rating is the most popular. This method cannot produce personalized results. By Looking at the rating counts, I found the top 5 popular placed. Then, I looked out the cuisine of top 5 rated restaurant which turned out most of them are mexican. 
 <img src="https://github.com/nmshafie1993/RecommenderSystems/blob/master/1.PNG" alt="table_1">
 
+## Part 1 - Correlation-Based Recommenders
+<br>
 a popularity-based recommender using Pandas library that can recommend similar items based on correlation. </br>
 <br> Also, we deploy various machine learning algorithms such nearest neighbors and logistic regression to make recommendations and evaluate our recommender system. </br>
